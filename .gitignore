@@ -1,0 +1,5 @@
+# never commit credentials
+ra-creds
+ra-credentials
+*.creds
+*.credentials
