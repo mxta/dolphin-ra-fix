@@ -42,8 +42,7 @@ Nothing phones home, nothing is uploaded anywhere.
 Open **Konsole** (search for it in the app drawer in Desktop Mode) and run:
 
 ```bash
-cd ~/ra-fix
-bash install.sh
+git clone https://github.com/mxta/dolphin-ra-fix.git && cd dolphin-ra-fix && bash install.sh
 ```
 
 The script will:
@@ -66,8 +65,7 @@ It is safe to run more than once — it will not duplicate anything.
 ## Uninstall
 
 ```bash
-cd ~/ra-fix
-bash uninstall.sh
+cd ~/dolphin-ra-fix && bash uninstall.sh
 ```
 
 This removes all scripts, systemd units, and the EmuDeck launcher hook. It will
