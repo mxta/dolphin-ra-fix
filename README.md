@@ -7,6 +7,18 @@ you switch between Desktop Mode and Game Mode.
 ## !!!THESE SCRIPTS WERE CREATED BY CLAUDE CODE!!!
 !!!use at your own risk!!!
 
+> **⚠️ SECURITY WARNING — READ BEFORE INSTALLING**
+>
+> This tool stores your RetroAchievements password in **plain text** in the file
+> `~/.config/ra-creds` on your Steam Deck's local storage.
+>
+> - The file is set to mode 600 (only your user account can read it)
+> - It is **never uploaded anywhere** by this tool
+> - Anyone with physical or remote access to your Steam Deck can read it
+>
+> **Use a unique password for RetroAchievements that you don't use anywhere else.**
+> If your Deck is stolen or compromised, change your RA password immediately.
+
 ## The bug
 
 Dolphin stores your RA login token in a file called `RetroAchievements.ini`.
