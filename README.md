@@ -137,3 +137,6 @@ systemctl --user start ra-dolphin-guard.service
 | `~/.config/systemd/user/ra-token-refresh.service` | Systemd service |
 | `~/.config/systemd/user/ra-token-refresh.timer` | Systemd timer |
 | `~/.config/systemd/user/ra-dolphin-guard.service` | Hook re-injection service (EmuDeck only) |
+
+## THESE SCRIPTS WERE CREATED BY CLAUDE CODE
+!!!use at your own risk!!!
