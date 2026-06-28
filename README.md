@@ -3,7 +3,9 @@
 Fixes a Dolphin bug where your RetroAchievements login disappears every time
 you switch between Desktop Mode and Game Mode.
 
----
+
+## !!!THESE SCRIPTS WERE CREATED BY CLAUDE CODE!!!
+!!!use at your own risk!!!
 
 ## The bug
 
@@ -138,5 +140,5 @@ systemctl --user start ra-dolphin-guard.service
 | `~/.config/systemd/user/ra-token-refresh.timer` | Systemd timer |
 | `~/.config/systemd/user/ra-dolphin-guard.service` | Hook re-injection service (EmuDeck only) |
 
-## THESE SCRIPTS WERE CREATED BY CLAUDE CODE
+## !!!THESE SCRIPTS WERE CREATED BY CLAUDE CODE!!!
 !!!use at your own risk!!!
